@@ -1,5 +1,5 @@
 import csv
-
+import os
 
 with open("conso-annuelles_v1.csv") as instream, open("conso-unsorted.csv", "w", newline='') as outstream:
     #Initialise l'entrée
@@ -45,6 +45,8 @@ with open('conso-clean.csv', 'w', newline='') as f: #On écrit le tri dans un no
     writer.writeheader()
     for row in sortedlist:
         writer.writerow(row)
+    os.remove("conso-unsorted.csv") #Permet de supprimer le csv non clean
+
 
 with open('conso-clean.csv') as file: #Lis le csv-clean sur le terminal
     content = file.readlines()
