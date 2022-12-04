@@ -17,8 +17,8 @@ specs:
 
 Utilisation :
 
-Lancer csv_cleaner en ayant conso-annuelles_v1 dans le même dossier
-Deux fichiers csv seront créés, le fichier de sortie conso-clean est le bon
+- Lancer csv_cleaner en ayant conso-annuelles_v1 dans le même dossier
+- Deux fichiers csv seront créés, le fichier de sortie conso-clean est le bon
 
 liens de rendu
 https://docs.google.com/spreadsheets/d/1BnthgpieVAsnWahYs3PI1_dhVF5dIJfEtB5Z1pUi018/edit?usp=sharing
